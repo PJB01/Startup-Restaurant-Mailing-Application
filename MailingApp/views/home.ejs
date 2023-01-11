@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bamboo Bear Bistro</title>
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="/app.css">    
+</head>
+	<body>
+	<h1 id="title">BAMBOO BEAR BISTRO</h1>
+	<div id = "descAndMenu">	
+		<div id="desc">
+			<div id = "subTitle">
+				About Us
+			</div>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				Excepteur sint occaecat.
+			</p>
+		</div>
+		<div id="menu">
+			<div id = "subTitle">
+				What Should You Be Excited About?
+			</div>
+			<div id="menu-item">
+				<div id="menu-item-title">Proposed Menu Item</div>
+				<div id="menu-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</div>
+			</div>
+			<div id="menu-item">
+				<div id="menu-item-title">Proposed Menu Item</div>
+				<div id="menu-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</div>
+			</div>
+			<div id="menu-item">
+				<div id="menu-item-title">Proposed Menu Item</div>
+				<div id="menu-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</div>
+			</div>
+		</div>
+	</div>
+	<div id="images">
+		<img src="dinningroom1.jpg" alt="picture of dinning room">
+		<img src="bar.jpg" alt="picture of bar">
+		<img src="dinningroom2.jpg" alt="picture of dinning room">
+	</div>
+	<div id="connect">
+		<h2>
+			Contact Us
+		</h2>
+		<p class="lead" id="contactDesc">Enter your information below to join <span><%= count %></span> 
+    		other pandas waiting for our grand opening!</p>  
+		<form method="POST" action='/thankyou'>
+			<div>
+	 			<label for="full_name">Name:</label>
+				<input id = "full_name" type="text" class="form" name="full_name" placeholder="Enter Your Name" maxlength="100" required>
+				<label for="email">Email:</label>
+     			<input id = "email" type="email" class="form" name="email" placeholder="Enter Your Email" maxlength="100" required>
+				<div id="comments">
+	 				<label for="comment_text">Any comments or suggestions?</label>					
+				</div>
+				<div>
+					<input id = "comment_text" type="text" class="form" name="comment_text" placeholder="Comment" maxlength="300">					
+				</div>
+				<button>Submit</button>
+			</div>
+		</form>  
+	
+	</div>
+	</body>
+</html>

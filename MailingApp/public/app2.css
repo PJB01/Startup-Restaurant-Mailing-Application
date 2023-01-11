@@ -1,0 +1,47 @@
+*{
+	align-items: center;
+	text-align: center;
+}
+body {
+	margin: 0px;
+    font-family: 'Amatic SC', cursive;
+	text-shadow: lightgray 0 0.1rem;
+	background-image: url(/backgroundthankyou.PNG); 
+	background-position: center;
+	background-size: cover;
+}
+
+header {
+	border: 3px black solid;
+	border-radius: 30px;
+	background-color: white;
+	margin: 2em 15em;
+	padding-bottom: 0.5em;
+}
+
+h1{
+	font-size: 4em;	
+	margin: 0.5em;
+	margin-bottom: 0em;
+	padding-bottom: 0em;
+}
+
+p{
+	font-family: Open Sans;
+	width: 10em;
+	padding: 0.2em;
+	padding-top: 0px;
+	margin: 0.5em;
+	font-size: 2em;
+  	margin: auto;
+}
+
+img {
+    float: center;
+    width:  30em;
+    height: 30em;
+    object-fit: cover;
+	border: 2px black solid;
+	border-radius: 15px;
+	margin: 4em;
+}
